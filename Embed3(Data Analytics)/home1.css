@@ -1,0 +1,116 @@
+	nav.menu{
+		opacity:0.92;
+		line-height: 1.42857143 !important;
+		background-color: #fff;
+	}
+	.nav{
+		letter-spacing: 6px;
+	}
+	.navbar li a, .navbar .navbar-brand {
+      color: #000000 !important;
+	}
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #000000 !important;
+	}
+	.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+	}
+
+	h2.tagline{
+		color: #000000;
+		letter-spacing: 4px;
+	}
+	span.dot{
+		color: #fff;
+	}
+	#menuBar{
+		margin-right: 30px;
+		margin-bottom: 0;
+		font-family: Montserrat, sans-serif;
+		border-color: transparent;
+		font-size: 15px !important;
+		line-height: 1.42857143 !important;
+		letter-spacing:4px;
+		border-radius: 0;
+		z-index: 9999;
+		border: 0;
+	}
+	.form{
+		border-radius:2px;
+		padding:20px 30px;
+		box-shadow:0 0 15px;
+		font-size:14px;
+		font-weight:bold;
+		width:350px;
+		margin:20px 250px 0 35px;
+		float:left;
+	}
+	#logindiv,#registerdiv{
+		color:white;
+		background-color: #000;
+		opacity:0.92;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 1700px;
+		width: 100%;
+		display: none;
+	}
+	#login,#register{
+		width:350px;
+		margin:0px;
+		background-color:#000;
+		position: relative;
+		border: 2px solid rgb(51, 255, 102);
+		left: 50%;
+		top: 50%;
+		margin-left:-175px;
+		margin-top:-630px;
+	}
+	#user,#pass, #row{
+		height: 100%;
+		width: 100%;
+		background-color:#000;
+	}
+	#loginbtn,#cancel,#send, #regcancel{
+		height: 20%;
+		width: 49%;
+		background-color:#6fba26;
+		padding:3px;
+		position:relative;
+		font-size:12px;
+		text-decoration:none;
+		color:#fff;
+		background-image: linear-gradient(bottom, rgb(100,170,30) 0%, rgb(129,212,51) 100%);
+		box-shadow: inset 0px 1px 0px #b2f17f, 0px 6px 0px #3d6f0d;
+		border-radius: 5px;
+	}
+	#loginbtn::active,#cancel::active,#send::active, #regcancel::active{
+		top:7px;
+		background-image: linear-gradient(bottom, rgb(100,170,30) 100%, rgb(129,212,51) 0%);
+		box-shadow: inset 0px 1px 0px #b2f17f, inset 0px -1px 0px #3d6f0d;
+		color: #156785;
+		text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+		background: rgb(44,160,202);
+	}
+	#loginbtn::before,#cancel::before,#send::before, #regcancel::before {
+		background-color:#072239;
+		content:"";
+		display:block;
+		position:absolute;
+		width:100%;
+		height:100%;
+		padding-left:2px;
+		padding-right:2px;
+		padding-bottom:4px;
+		left:-2px;
+		top:5px;
+		z-index:-1;
+		border-radius: 6px;
+		box-shadow: 0px 1px 0px #fff;
+	}
+	#onclick, #reg{
+		cursor:pointer;
+	}
